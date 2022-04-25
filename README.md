@@ -1,1 +1,1 @@
-# rest-method
+# REST API methods
