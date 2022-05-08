@@ -1,4 +1,6 @@
 client:
   url:
     base: localhost:8080
-    endpoint: /mock
+    endpoints:
+      post: /post-some
+      get: /get-some

@@ -25,7 +25,7 @@ public class ApiController {
     @Value("${client.url.base}")
     String clientBaseUrl;
 
-    @Value("${client.url.endpoint}")
+    @Value("${client.url.endpoints.post}")
     String clientEndpoint;
 
     public ApiController(WebClient client) {
